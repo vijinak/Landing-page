@@ -1,0 +1,42 @@
+html{
+    overflow-x: hidden;
+}
+#landing ,#home{
+    background-image: url('./landing\ img.webp');
+    height: 350px;
+}
+#landing i{
+    color: white;
+    font-size: 35px;
+}
+#landing span{
+    color: white;
+    font-size: 35px;
+}
+#welcome span{
+    color: blue;
+}
+#welcome p{
+    text-align: justify;
+}
+#login form{
+    background-image: linear-gradient(to right, rgb(162,162,230),rgb(222,221,221));
+    width: 90%;
+    height: 288px;
+    margin-top: 75px;
+}
+#login form button{
+    font-weight: bold;
+}
+/* #home i{
+    color: white;
+    font-size: 30px;
+} */
+#dash{
+    color: white;
+    font-size: 30px;
+}
+#user{
+    color: white;
+    font-size: 20px;
+}
