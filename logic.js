@@ -8,12 +8,12 @@ class Landing{
     // to store data to local storage
     storeData(){
         if(this.database){
-            localStorage.setItem('database',JSON.stringify(this.database))
+            localStorage.setItem('Database',JSON.stringify(this.database))
         }
     }
     // to get data from local storage
     getData(){
-        this.database = JSON.parse(localStorage.getItem('database'))
+        this.database = JSON.parse(localStorage.getItem('Database'))
         // console.log(this.database);
     }
     // to register
